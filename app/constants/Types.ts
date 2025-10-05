@@ -12,10 +12,3 @@ export type Product = {
   quantity?: number | undefined;
   availability: string;
 };
-
-export type TeamMember = {
-  id: number;
-  name: string;
-  position: string;
-  image: string;
-};

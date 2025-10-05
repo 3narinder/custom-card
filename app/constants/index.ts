@@ -9,10 +9,6 @@ import {
   product8,
   product9,
   product10,
-  teamMember1,
-  teamMember2,
-  teamMember3,
-  teamMember4,
 } from "./Images";
 
 export const products = [

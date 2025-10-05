@@ -43,7 +43,7 @@ const ProductList = ({ limit = products.length, grid4 }: ProductListProps) => {
 
     return () => {
       if (observerRef.current) {
-        observer.unobserve(observerRef.current);
+        observer.unobserve(observerRef?.current);
       }
     };
   }, [displayedProducts, limit]);
