@@ -8,7 +8,7 @@ interface ProductListProps {
   grid4?: boolean;
 }
 
-const ProductList = ({ limit = 8, grid4 }: ProductListProps) => {
+const ProductList = ({ limit = 20, grid4 }: ProductListProps) => {
   return (
     <div
       className={`grid ${

@@ -1,3 +1,4 @@
+// app/product/[id]/page.tsx
 import { notFound } from "next/navigation";
 import { FaFacebookF, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
@@ -20,7 +21,7 @@ const ProductPage = ({ params }: ProductPageProps) => {
   if (!product) return notFound();
 
   return (
-    <div className="lg:px-32 py-8">
+    <div className="lg:px-32 py-8 bg-neutral-2">
       <Breadcrumb productName={product.name} />
       <div className="mt-12 flex lg:flex-row lg:justify-start flex-col lg:gap-14 gap-12 lg:ml-0 mx-4">
         {/* product image gallery */}
@@ -44,7 +45,15 @@ const ProductPage = ({ params }: ProductPageProps) => {
             <div className="text-display-2 ml-12 flex">
               <span className="text-neutral-7">Stock :</span>
 
-              <span className="text-light-brown ml-1">in stock</span>
+              <span
+                className={`ml-1 ${
+                  product.availability === "in stock"
+                    ? "text-light-brown"
+                    : "text-red-500"
+                }`}
+              >
+                {product.availability}
+              </span>
             </div>
           </div>
 
@@ -59,7 +68,7 @@ const ProductPage = ({ params }: ProductPageProps) => {
           </div>
 
           {/* product action */}
-          <ProductActions />
+          <ProductActions product={product} />
 
           {/* social media  */}
           <div className="lg:mt-12 mt-8">
@@ -83,7 +92,7 @@ const ProductPage = ({ params }: ProductPageProps) => {
 
       <div className="lg:py-20 py-12">
         <SectionHeading alignStart text="Similar items" />
-        <ProductList grid4 limit={4} />
+        <ProductList grid4 limit={8} />
       </div>
     </div>
   );

@@ -80,6 +80,7 @@ export const products = [
     image: [product1, product2, product3, product4, product5],
     description:
       "A beautifully handcrafted ceramic dinner set featuring a classic white and blue design. Perfect for elegant dining experiences.",
+    availability: "in stock",
   },
   {
     id: 2,
@@ -94,6 +95,7 @@ export const products = [
     image: [product6, product7, product8, product9, product10],
     description:
       "Enjoy your tea in these rustic, handcrafted clay tea cups. A perfect blend of tradition and elegance.",
+    availability: "out of stock",
   },
   {
     id: 3,
@@ -108,6 +110,7 @@ export const products = [
     image: [product1, product2, product3, product4, product5],
     description:
       "A stunning glazed ceramic flower pot, ideal for both indoor and outdoor plants. Adds charm to any space.",
+    availability: "in stock",
   },
   {
     id: 4,
@@ -122,6 +125,7 @@ export const products = [
     image: [product6, product7, product8, product9, product10],
     description:
       "Set of 4 vintage-style ceramic soup bowls, perfect for serving warm and hearty meals in style.",
+    availability: "in stock",
   },
   {
     id: 5,
@@ -136,6 +140,7 @@ export const products = [
     image: [product1, product2, product3, product4, product5],
     description:
       "A sleek matte finish ceramic coffee mug designed for comfort and a stylish drinking experience.",
+    availability: "out of stock",
   },
   {
     id: 6,
@@ -150,6 +155,7 @@ export const products = [
     image: [product6, product7, product8, product9, product10],
     description:
       "A handmade ceramic vase with an elegant white finish. A timeless decor piece for any home.",
+    availability: "in stock",
   },
   {
     id: 7,
@@ -164,6 +170,7 @@ export const products = [
     image: [product1, product2, product3, product4, product5],
     description:
       "A high-quality ceramic serving platter with a beautiful glazed finish. Perfect for showcasing your favorite dishes.",
+    availability: "in stock",
   },
   {
     id: 8,
@@ -178,6 +185,7 @@ export const products = [
     image: [product6, product7, product8, product9, product10],
     description:
       "A set of three speckled ceramic mixing bowls, ideal for cooking, baking, and serving meals.",
+    availability: "in stock",
   },
   {
     id: 9,
@@ -192,6 +200,7 @@ export const products = [
     image: [product1, product2, product3, product4, product5],
     description:
       "Minimalist ceramic pasta plates designed for modern dining. Comes in a set of two elegant gray plates.",
+    availability: "in stock",
   },
   {
     id: 10,
@@ -206,8 +215,8 @@ export const products = [
     image: [product6, product7, product8, product9, product10],
     description:
       "A traditional handcrafted clay water jug that keeps water naturally cool and fresh.",
+    availability: "out of stock",
   },
-
   {
     id: 11,
     name: "Handcrafted Ceramic Dinner Set",
@@ -221,6 +230,7 @@ export const products = [
     image: [product1, product2, product3, product4, product5],
     description:
       "A beautifully handcrafted ceramic dinner set featuring a classic white and blue design. Perfect for elegant dining experiences.",
+    availability: "in stock",
   },
   {
     id: 12,
@@ -235,6 +245,7 @@ export const products = [
     image: [product6, product7, product8, product9, product10],
     description:
       "Enjoy your tea in these rustic, handcrafted clay tea cups. A perfect blend of tradition and elegance.",
+    availability: "out of stock",
   },
   {
     id: 13,
@@ -249,6 +260,7 @@ export const products = [
     image: [product1, product2, product3, product4, product5],
     description:
       "A stunning glazed ceramic flower pot, ideal for both indoor and outdoor plants. Adds charm to any space.",
+    availability: "in stock",
   },
   {
     id: 14,
@@ -263,6 +275,7 @@ export const products = [
     image: [product6, product7, product8, product9, product10],
     description:
       "Set of 4 vintage-style ceramic soup bowls, perfect for serving warm and hearty meals in style.",
+    availability: "in stock",
   },
   {
     id: 15,
@@ -277,6 +290,7 @@ export const products = [
     image: [product1, product2, product3, product4, product5],
     description:
       "A sleek matte finish ceramic coffee mug designed for comfort and a stylish drinking experience.",
+    availability: "out of stock",
   },
   {
     id: 16,
@@ -291,6 +305,7 @@ export const products = [
     image: [product6, product7, product8, product9, product10],
     description:
       "A handmade ceramic vase with an elegant white finish. A timeless decor piece for any home.",
+    availability: "in stock",
   },
   {
     id: 17,
@@ -305,6 +320,7 @@ export const products = [
     image: [product1, product2, product3, product4, product5],
     description:
       "A high-quality ceramic serving platter with a beautiful glazed finish. Perfect for showcasing your favorite dishes.",
+    availability: "in stock",
   },
   {
     id: 18,
@@ -319,6 +335,7 @@ export const products = [
     image: [product6, product7, product8, product9, product10],
     description:
       "A set of three speckled ceramic mixing bowls, ideal for cooking, baking, and serving meals.",
+    availability: "in stock",
   },
   {
     id: 19,
@@ -333,6 +350,7 @@ export const products = [
     image: [product1, product2, product3, product4, product5],
     description:
       "Minimalist ceramic pasta plates designed for modern dining. Comes in a set of two elegant gray plates.",
+    availability: "in stock",
   },
   {
     id: 20,
@@ -347,6 +365,7 @@ export const products = [
     image: [product6, product7, product8, product9, product10],
     description:
       "A traditional handcrafted clay water jug that keeps water naturally cool and fresh.",
+    availability: "out of stock",
   },
 ];
 

@@ -3,6 +3,7 @@
 import { useState } from "react";
 import ColorSelector from "./ColorSelector";
 import CartActions from "./CartActions";
+import { Product } from "../constants/Types";
 
 const colors = [
   { name: "Gray", code: "#808080" },
@@ -13,7 +14,11 @@ const colors = [
   { name: "DarkGreen", code: "#006400" },
 ];
 
-const ProductActions = () => {
+interface ProductCardProps {
+  product: Product;
+}
+
+const ProductActions = ({ product }: ProductCardProps) => {
   const [selectedColor, setSelectedColor] = useState(colors[0]);
 
   return (
@@ -24,7 +29,7 @@ const ProductActions = () => {
         onSelect={setSelectedColor}
       />
 
-      <CartActions />
+      <CartActions product={product} />
     </div>
   );
 };

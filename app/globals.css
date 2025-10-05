@@ -20,6 +20,20 @@
   --color-neutral-2: #f7f6f5;
 }
 
+.dark {
+  --color-warm-black: #e5e5e5;
+  --color-binge-peach: #4a3728;
+  --color-light-brown: #8c6b4b;
+  --color-green-dark: #d1c7bc;
+  --color-neutral-8: #f7f6f5;
+  --color-neutral-7: #a6a6a8;
+  --color-neutral-6: #807f86;
+  --color-neutral-5: #595667;
+  --color-neutral-4: #3a3845;
+  --color-neutral-3: #595667;
+  --color-neutral-2: #1f1e27;
+}
+
 .text-display-12 {
   @apply text-8xl leading-24 font-inter;
 }

@@ -10,6 +10,7 @@ export type Product = {
   image: string[];
   description: string;
   quantity?: number | undefined;
+  availability: string;
 };
 
 export type TeamMember = {
